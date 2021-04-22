@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Menu Design */
+
+.main-menu {
+    width: 80%;
+    height: 4rem;
+    background-color: teal;
+    margin: 0 auto;
+
+
+
+    
+}
+
+.main-menu ul {
+    text-align: center;
+
+}
+
+.main-menu ul li {
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid rgb(3, 87, 87);
+    border-left: 1px solid rgb(5, 141, 141);
+}
+.main-menu ul li:first-child {
+    border-left: none;
+}
+.main-menu ul li:last-child {
+    border-right: none;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    padding: 23px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+    
+}
+
+
+.main-menu ul li a:hover {
+    background-color: rgb(7, 112, 116);
+}
