@@ -1,0 +1,59 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Menu Design */
+
+.main-menu{
+	width: 80%;
+	min-height: 52px;
+    margin: 0 auto;
+	background-color:#4E4E4E;
+}
+
+.main-menu ul {
+    text-align: center;
+}
+
+.main-menu li{
+	float:left;
+	list-style-type:none;
+}
+
+.main-menu li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 16.8px 20px;
+	display: block;
+	background-color:#4E4E4E;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+	transition: 0.3s all ease;
+}
+.main-menu li a:hover{
+	background: rgb(255, 0, 119);
+}
+
+
+/* Dropdown Menu Design */
+
+.dropdown-items{
+	list-style-type:none;
+    display: none;
+}
+
+.dropdown-items li{
+	float:none;
+}
+
+.dropdown:hover .dropdown-items {
+    display: block;
+}
+
+
