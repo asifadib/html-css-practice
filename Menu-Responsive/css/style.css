@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Menu Design */
+
+nav {
+	width: 100%;
+	background-color: blueviolet;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #ddd;
+}
+
+nav ul li a:hover {
+	color: cornsilk;
+}

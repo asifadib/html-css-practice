@@ -1,0 +1,55 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    nav {
+        width: 100%;
+        background-color: rgb(217, 17, 224);
+    }
+    
+    nav ul {
+        text-align: left;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+    }
+    
+    nav ul li a:hover {
+        color: cornsilk;
+        text-decoration: underline;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        background-color: rgb(17, 31, 224);
+    }
+    
+    nav ul {
+        text-align: left;
+    }
+    
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+    }
+    
+    nav ul li a:hover {
+        color: cornsilk;
+
+    }
+  }
